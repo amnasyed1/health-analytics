@@ -5,7 +5,7 @@ import numpy as np
 patient_firstName = "Taylor"
 patient_age = 22 
 patient_healthconditions = ["migranes", "asthma", "allergies"]
-patinet_o2sat = 98
+patient_o2sat = 98
 patient_information = {
     "patient_age": 22,
     "firstName": "Taylor",
@@ -33,6 +33,9 @@ def measure_o2sat (asthma, health_conditions, o2sat):
 print ("Patient First Name:", patient_firstName)
 print ("Patient Age:", patient_age)
 print ("Patient Health Conditions:", patient_healthconditions)
-print ("Patient Oxygen Saturation Level:", patinet_o2sat)
+print ("Patient Oxygen Saturation Level:", patient_o2sat)
 print ("Patient Medical Informaiton Recorded:", patient_information)
 
+#example run with data
+o2sat_result = measure_o2sat("asthma" in patient_healthconditions, patient_healthconditions, patient_o2sat)
+print ("Patient Oxygen Saturation Level:", patient_o2sat)
