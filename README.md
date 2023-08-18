@@ -12,4 +12,5 @@ for the string variable i created the patient's name, which is Taylor
 
 for the list varibale i created health conditions of the patient  = [migranes, asthma, allergies] 
 
-for the dictionary i created the patient's health history
+for the dictionary i created the patient's health record including the patient name, age, health conditions, and current medications
+
