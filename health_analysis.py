@@ -37,5 +37,6 @@ print ("Patient Oxygen Saturation Level:", patient_o2sat)
 print ("Patient Medical Informaiton Recorded:", patient_information)
 
 #example run with data
+
 o2sat_result = measure_o2sat("asthma" in patient_healthconditions, patient_healthconditions, patient_o2sat)
-print ("Patient Oxygen Saturation Level:", patient_o2sat)
+print ("Patient Oxygen Saturation Level:", o2sat_result) 
